@@ -94,18 +94,7 @@ const Navbar = () => {
 
         {/* Right: Section Links + CTA + Call (desktop) */}
         <div className="hidden lg:flex items-center gap-4">
-          {sectionLinks.map((link) => (
-            <button
-              key={link.id}
-              onClick={() => scrollToSection(link.id)}
-              className="relative group py-1"
-            >
-              <span className="text-xs text-primary-foreground/60 group-hover:text-gold transition-colors duration-200">
-                {link.label}
-              </span>
-              <span className="absolute bottom-0 left-0 h-[1px] w-0 bg-gold/60 group-hover:w-full transition-all duration-300" />
-            </button>
-          ))}
+         
 
           <Link to="/contact" className="btn-gold text-sm py-2 px-5 ml-2">
             Get Consultation

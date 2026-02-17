@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { MapPin, IndianRupee, Home, Building2, Eye } from "lucide-react";
 import { useState } from "react";
+import { toast } from "sonner";
 
 type Property = {
   id: number;
@@ -103,7 +104,7 @@ const Properties = () => {
                     </span>
                     <span className="text-xs text-muted-foreground">{property.sqft}</span>
                   </div>
-                  <button className="btn-gold w-full text-sm py-2.5 flex items-center justify-center gap-2">
+                  <button onClick={() => {toast.success("Work in progress.")}} className="btn-gold w-full text-sm py-2.5 flex items-center justify-center gap-2">
                     <Eye size={16} /> View Details
                   </button>
                 </div>
