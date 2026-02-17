@@ -344,6 +344,63 @@ const FAQSection = () => {
 };
 
 
+/* ─── PREVIEW: PROPERTIES ─── */
+const PropertiesPreview = () => (
+  <section className="py-12 section-alt">
+    <div className="section-container text-center">
+      <motion.div initial={{ opacity: 0, y: 15 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
+        <h2 className="text-2xl font-heading font-bold text-foreground mb-2">
+          Featured <span className="gold-gradient-text">Properties</span>
+        </h2>
+        <p className="text-sm text-muted-foreground max-w-md mx-auto mb-5">
+          Browse our curated selection of premium residential and commercial rental properties across Mumbai.
+        </p>
+        <Link to="/properties" className="btn-navy text-sm py-2 px-6 inline-flex items-center gap-2">
+          Explore Properties <ArrowRight size={16} />
+        </Link>
+      </motion.div>
+    </div>
+  </section>
+);
+
+/* ─── PREVIEW: ABOUT ─── */
+const AboutPreview = () => (
+  <section className="py-12">
+    <div className="section-container text-center">
+      <motion.div initial={{ opacity: 0, y: 15 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
+        <h2 className="text-2xl font-heading font-bold text-foreground mb-2">
+          About <span className="gold-gradient-text">Honesty Associates</span>
+        </h2>
+        <p className="text-sm text-muted-foreground max-w-md mx-auto mb-5">
+          Over 30 years of trusted real estate expertise in Mumbai, built on integrity and client-first values.
+        </p>
+        <Link to="/about" className="btn-navy text-sm py-2 px-6 inline-flex items-center gap-2">
+          Learn More <ArrowRight size={16} />
+        </Link>
+      </motion.div>
+    </div>
+  </section>
+);
+
+/* ─── PREVIEW: CONTACT ─── */
+const ContactPreview = () => (
+  <section className="py-12 section-alt">
+    <div className="section-container text-center">
+      <motion.div initial={{ opacity: 0, y: 15 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
+        <h2 className="text-2xl font-heading font-bold text-foreground mb-2">
+          Get In <span className="gold-gradient-text">Touch</span>
+        </h2>
+        <p className="text-sm text-muted-foreground max-w-md mx-auto mb-5">
+          Ready to find your ideal property? Reach out for a free consultation with our experts.
+        </p>
+        <Link to="/contact" className="btn-gold text-sm py-2 px-6 inline-flex items-center gap-2">
+          Contact Us <ArrowRight size={16} />
+        </Link>
+      </motion.div>
+    </div>
+  </section>
+);
+
 /* ─── HOME PAGE ─── */
 const Index = () => (
   <>
@@ -351,8 +408,11 @@ const Index = () => (
     <AboutSection />
     <ExpertiseSection />
     <ServicesSection />
+    <PropertiesPreview />
     <ReviewsSection />
+    <AboutPreview />
     <FAQSection />
+    <ContactPreview />
   </>
 );
 
