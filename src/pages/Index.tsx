@@ -61,7 +61,7 @@ const HeroSection = () => (
         </motion.p>
 
         <motion.div variants={fadeUp} custom={3} className="flex flex-wrap gap-4">
-          <a href="tel:+919000000000" className="btn-gold flex items-center gap-2">
+          <a href="tel:+919892172090" className="btn-gold flex items-center gap-2">
             <Phone size={18} /> Call Now
           </a>
           <Link to="/contact" className="btn-navy flex items-center gap-2">

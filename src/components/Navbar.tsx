@@ -101,7 +101,7 @@ const Navbar = () => {
           </Link>
 
           <a
-            href="tel:+919000000000"
+            href="tel:+919892172090"
             className="flex items-center gap-1.5 text-gold text-sm hover:text-gold-light transition-colors ml-1"
           >
             <Phone size={14} />
@@ -157,7 +157,7 @@ const Navbar = () => {
               <Link to="/contact" className="btn-gold text-sm py-2 px-5 text-center mt-2">
                 Get Consultation
               </Link>
-              <a href="tel:+919000000000" className="flex items-center gap-2 text-gold text-sm py-2">
+              <a href="tel:+919892172090" className="flex items-center gap-2 text-gold text-sm py-2">
                 <Phone size={14} /> Call Now
               </a>
             </div>

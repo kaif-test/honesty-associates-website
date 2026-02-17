@@ -46,13 +46,13 @@ const Contact = () => {
                   Contact <span className="gold-gradient-text">Information</span>
                 </h2>
                 <div className="space-y-5">
-                  <a href="tel:+919000000000" className="flex items-center gap-4 group">
+                  <a href="tel:+919892172090" className="flex items-center gap-4 group">
                     <div className="w-12 h-12 rounded-lg bg-navy flex items-center justify-center flex-shrink-0">
                       <Phone size={20} className="text-gold" />
                     </div>
                     <div>
                       <p className="text-sm text-muted-foreground">Call Us</p>
-                      <p className="text-foreground font-medium group-hover:text-gold transition-colors">+91 90000 00000</p>
+                      <p className="text-foreground font-medium group-hover:text-gold transition-colors">+91 9892172090</p>
                     </div>
                   </a>
                   <a
